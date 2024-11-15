@@ -40,7 +40,7 @@ namespace midLab_CCtask1_
             password.Append("h"); // Add letter h
             password.Append("p"); // Add letter p
 
-            // Add random characters to reach the total length of 16
+
             Random rand = new Random();
             while (password.Length < 14)
             {
